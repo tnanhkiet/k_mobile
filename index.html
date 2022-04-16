@@ -1,0 +1,811 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>K Mobile</title>
+    <link type="image/x-icon" rel="shortcut icon" href="./assets/img/logo/Logo.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/grid.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+    <link rel="stylesheet" href="./assets/fonts/fontawesome-free-5.15.4-web/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="main">
+        <header class="header">
+            <div class="grid wide">
+                <!-- Begin: Navbar -->
+                <nav class="header__navbar hide-on-mobile-table">
+                    <ul class="header__navbar-list">
+                        <li class="header__navbar-item header__navbar-item--qr header__navbar-item--separate">
+                            Vào cửa hàng trên ứng dụng K Mobile
+                            <!-- QR Code -->
+                            <div class="header__qr">
+                                <img src="./assets/img/qr_code/QR-Code.png" alt="QR Code" class="header__qr-img">
+                                <div class="header__qr-apps">
+                                    <a href="" class="header__qr-link">
+                                        <img src="./assets/img/qr_code/Google-Play.png" alt="Google Play" class="header__qr-download-img">
+                                    </a>
+                                    <a href="" class="header__qr-link">
+                                        <img src="./assets/img/qr_code/App-Store.png" alt="App Store" class="header__qr-download-img">
+                                    </a>
+                                </div>
+                            </div>
+                            <!-- End: QR Code -->
+                        </li>
+                        <li class="header__navbar-item">
+                            <span class="header__navbar--title-no-pointer">Kết nối</span>
+                            <a href="" class="header__navbar-icon-link">
+                                <i class="header__nav-icon fab fa-facebook"></i>
+                            </a>
+                            <a href="" class="header__navbar-icon-link">
+                                <i class="header__nav-icon fab fa-instagram"></i>
+                            </a>
+                        </li>
+                    </ul>
+                    <ul class="header__navbar-list">
+                        <li class="header__navbar-item header__navber-item--notify">
+                            <i class="header__nav-icon far fa-bell"></i>
+                            Thông báo
+                            <!-- Begin: Header Notification -->
+                            <div class="header__notify">
+                                <header class="header__notify-header">
+                                    <h3>Thông báo mới nhận</h3>
+                                </header>
+                                <ul class="header__notify-list">
+                                    <li class="header__notify-item">
+                                        <a href="" class="header__notify-link">
+                                            <img src="./assets/img/notication/Bphone.jpg" alt="" class="header__notify-img">
+                                            <div class="header__notify-info">
+                                                <span class="header__notify-name">Bất ngờ lộ thông tin Bphone "đạo nhái" trước giờ ra mắt</span>
+                                                <span class="header__notify-description">Bất ngờ lộ thông tin Bphone "đạo nhái" trước giờ ra mắt, liệu smartphone "đáng mong chờ nhất" của Việt Nam có thực sự như những lời quảng cáo?</span>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="header__notify-item">
+                                        <a href="" class="header__notify-link">
+                                            <img src="./assets/img/notication/PUBG.jpg" alt="" class="header__notify-img">
+                                            <div class="header__notify-info">
+                                                <span class="header__notify-name">Tầm 6.5 triệu có máy nào chơi PUBG 60fps không cần GFX?</span>
+                                                <span class="header__notify-description">Chào mừng Quý vị đã quay trở lại chuyên mục Tư Vấn Chọn Mua của K Shop.</span>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="header__notify-item">
+                                        <a href="" class="header__notify-link">
+                                            <img src="./assets/img/notication/Huawei.jpg" alt="" class="header__notify-img">
+                                            <div class="header__notify-info">
+                                                <span class="header__notify-name">Điện thoại màn hình gập của Huawei được tiết lộ</span>
+                                                <span class="header__notify-description">Huawei xác nhận chuẩn bị ra mắt Huawei P50 Pocket, điện thoại màn hình gập ngang đầu tiên của thương hiệu</span>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="header__notify-item">
+                                        <a href="" class="header__notify-link">
+                                            <img src="./assets/img/notication/Antutu.jpg" alt="" class="header__notify-img">
+                                            <div class="header__notify-info">
+                                                <span class="header__notify-name">Tin nóng: Smartphone 8 triệu đạt gần 1 triệu điểm Antutu. Mediatek đọ nhiệt độ với Qualcomm</span>
+                                                <span class="header__notify-description">Chào mừng Quý khách đã trở lại với Bản Tin Công Nghệ của MobileCity, cập nhật tin tức công nghệ hot nhất trong 24h qua.</span>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="header__notify-item">
+                                        <a href="" class="header__notify-link">
+                                            <img src="./assets/img/notication/VoLTE.jpg" alt="" class="header__notify-img">
+                                            <div class="header__notify-info">
+                                                <span class="header__notify-name">Thủ thuật đơn giản tắt VoLTE tiết kiệm pin cho iOS và Android</span>
+                                                <span class="header__notify-description">Thủ thuật đơn giản tắt VoLTE tiết kiệm pin cho iOS và Android, nhắm tăng hiệu suất làm việc cho các ứng dụng cũng như không gây lãng phí tài nguyên điện thoại.</span>
+                                            </div>
+                                        </a>
+                                    </li>
+                                </ul>
+                                <div class="header__notify-footer">
+                                    <a href="" class="header__notify-footer-btn">Xem tất cả</a>
+                                </div>
+                            </div>
+                            <!-- End: Header Notification -->
+                        </li>
+                        <li class="header__navbar-item">
+                            <a href="" class="header__navber-item-link">
+                                <i class="header__nav-icon far fa-question-circle"></i>
+                                Trợ giúp
+                            </a> 
+                        </li>
+                        <!-- <li class="header__navbar-item header__navbar-item--strong header__navbar-item--separate">Đăng ký</li>
+                        <li class="header__navbar-item header__navbar-item--strong">Đăng nhập</li> -->
+                        <li class="header__navbar-item header__navbar-user">
+                            <img src="/assets/img/avatar/avatar.jpg" alt="" class="header__navbar-user-img">
+                            <span class="header__navbar-user-name">Anh Kiệt</span>
+                            <ul class="header__navbar-user-menu">
+                                <li class="header__navbar-user-item">
+                                    <a href="">Tài khoản của tôi</a>
+                                </li>
+                                <li class="header__navbar-user-item">
+                                    <a href="">Địa chỉ của tôi</a>
+                                </li>
+                                <li class="header__navbar-user-item">
+                                    <a href="">Đơn mua</a>
+                                </li>
+                                <li class="header__navbar-user-item header__navbar-user-item--separate">
+                                    <a href="">Đăng xuất</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+                <!-- End: Navbar -->
+                <!-- Begin: Search -->
+                <div class="header__with-search">
+                    <label for="mobile-search-checkbox" class="header__mobile-search">
+                        <i class="header__mobile-search-icon fas fa-search"></i>
+                    </label>
+                    <a href="/index.html" class="header__logo hide-on-table">
+                        <img src="/assets/img/logo/Logo.png" alt="Logo" class="header__logo-img">
+                    </a>
+                    <input type="checkbox" hidden id="mobile-search-checkbox" class="search__checkbox">
+                    <div class="header__search">
+                        <div class="header__search-input-warp">
+                            <input type="text" class="header__search-input" placeholder="Nhập để tìm kiếm sản phẩm">
+                            <div class="header__search-history">
+                                <h3 class="header__search-history-heading">Lịch sử tìm kiếm</h3>
+                                <ul class="header__search-history-list">
+                                    <li class="header__search-history-item">
+                                        <a href="">Redmi k40 gaming</a>
+                                    </li>
+                                    <li class="header__search-history-item">
+                                        <a href="">Mi 11 ultra</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <button class="header__search-btn">
+                            <i class="header__search-icon fas fa-search"></i>
+                        </button>
+                    </div>
+                    <!-- Begin: Cart -->
+                    <div class="header__cart">
+                        <i class="header__cart-icon fas fa-shopping-cart">
+                            <div class="header__cart-notice">3</div>
+                            <!-- Cart Empty: header__cart--cart-empty -->
+                            <div class="header__cart-list">
+                                <img src="/assets/img/cart/Cart Empty.png" alt="" class="header__cart--cart-empty-img">
+                                <p class="header__cart--cart-empty-msg">Chưa có sản phẩm</p>
+                                <h3 class="header__cart-heading">Sản phẩm đã thêm</h3>
+                                <ul class="header__cart-list-item">
+                                    <li class="header__cart-item">
+                                        <img src="/assets/img/cart/iPhone 12 Pro Max.jpg" alt="iPhone 12 Pro Max" class="header__cart-img">
+                                        <div class="header__cart-item-info">
+                                            <div class="header__cart-item-head">
+                                                <h5 class="header__cart-item-name">iPhone 12 Pro Max</h5>
+                                                <div class="header__cart-item-price-warp">
+                                                    <span class="header__cart-item-price">28.990.000đ</span>
+                                                    <span class="header__cart-item-multipty">x</span>
+                                                    <span class="header__cart-item-quantity">1</span>
+                                                </div>
+                                            </div>
+                                            <div class="header__cart-item-body">
+                                                <span class="header__cart-item-description">Loại: Đen, 128GB</span>
+                                                <span class="header__cart-item-remove">Xóa</span>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="header__cart-item">
+                                        <img src="/assets/img/cart/Redmi Note 11 Pro.jpg" alt="Redmi Note 11 Pro" class="header__cart-img">
+                                        <div class="header__cart-item-info">
+                                            <div class="header__cart-item-head">
+                                                <h5 class="header__cart-item-name">Redmi Note 11 Pro</h5>
+                                                <div class="header__cart-item-price-warp">
+                                                    <span class="header__cart-item-price">6.350.000đ</span>
+                                                    <span class="header__cart-item-multipty">x</span>
+                                                    <span class="header__cart-item-quantity">2</span>
+                                                </div>
+                                            </div>
+                                            <div class="header__cart-item-body">
+                                                <span class="header__cart-item-description">Loại: Đen, 128GB</span>
+                                                <span class="header__cart-item-remove">Xóa</span>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="header__cart-item">
+                                        <img src="/assets/img/cart/Xiaomi Mi Mix 4.jpeg" alt="Xiaomi Mi Mix 4" class="header__cart-img">
+                                        <div class="header__cart-item-info">
+                                            <div class="header__cart-item-head">
+                                                <h5 class="header__cart-item-name">Xiaomi Mi Mix 4</h5>
+                                                <div class="header__cart-item-price-warp">
+                                                    <span class="header__cart-item-price">16.450.000đ</span>
+                                                    <span class="header__cart-item-multipty">x</span>
+                                                    <span class="header__cart-item-quantity">1</span>
+                                                </div>
+                                            </div>
+                                            <div class="header__cart-item-body">
+                                                <span class="header__cart-item-description">Loại: Đen, 256GB</span>
+                                                <span class="header__cart-item-remove">Xóa</span>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                                <a href="#" class="header__cart-view btn btn--primary">Xem giỏ hàng</a>
+                            </div>
+                        </i>
+                    </div>
+                    <!-- Begin: Cart -->
+                </div>
+                <!-- End: Search -->
+            </div>
+
+            <ul class="header__sort-bar">
+                <li class="header__sort-item">
+                    <a href="" class="header__sort-link">Liên quan</a>
+                </li><li class="header__sort-item">
+                    <a href="" class="header__sort-link">Mới nhất</a>
+                </li><li class="header__sort-item">
+                    <a href="" class="header__sort-link">Bán chạy</a>
+                </li><li class="header__sort-item">
+                    <a href="" class="header__sort-link">Giá</a>
+                </li>
+            </ul>
+        </header>
+
+        <div class="container">
+            <div class="grid wide">
+                <div class="row sm-gutter container__content">
+                    <div class="col l-2 m-0 c-0">
+                        <div class="category">
+                            <h3 class="category__heading">HÃNG SẢN XUẤT</h3>
+                            <ul class="category-list">
+                                <li class="category-item category-item--active">
+                                    <a href="" class="category-item__link">Xiaomi</a>
+                                </li>
+                                <li class="category-item">
+                                    <a href="" class="category-item__link">OPPO</a>
+                                </li>
+                                <li class="category-item">
+                                    <a href="" class="category-item__link">Apple</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col l-10 m-12 c-12">
+                        <!-- Begin: Filter -->
+                        <div class="home-filter hide-on-mobile-table">
+                            <span class="home-filter__lable">Sắp xếp theo</span>
+                            <button class="home-filter__btn btn">Phổ biến</button>
+                            <button class="home-filter__btn btn btn--primary">Mới nhất</button>
+                            <button class="home-filter__btn btn">Bán chạy</button>
+                            <div class="select-input">
+                                <span class="select-input__lable">Sắp xếp theo</span>
+                                <i class="select-input__icon fas fa-angle-down"></i>
+                                <ul class="select-input__list">
+                                    <li class="select-input__item">
+                                        <a href="" class="select-input__link">Tất cả</a>
+                                    </li>
+                                    <li class="select-input__item">
+                                        <a href="" class="select-input__link">Giá thấp đến cao</a>
+                                    </li>
+                                    <li class="select-input__item">
+                                        <a href="" class="select-input__link">Giá cao đến thấp</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="home-filter__page">
+                                <span class="home-filter__page-num">
+                                    <span class="home-filter__page-current">1</span>/14
+                                </span>
+                                <div class="home-filter__page-control">
+                                    <a href="" class="home-filter__page-btn home-filter__page-btn--disabled">
+                                        <i class="home-filter__page-icon fas fa-angle-left"></i>
+                                    </a>
+                                    <a href="" class="home-filter__page-btn">
+                                        <i class="home-filter__page-icon fas fa-angle-right"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End: Filter -->
+                        <!-- Begin: Mobile/tablet catelory -->
+                        <nav class="mobile-catelory">
+                            <ul class="mobile-catelory__list">
+                                <li class="mobile-catelory__item">
+                                    <a href="" class="mobile-catelory__link">Xiaomi</a>
+                                </li>
+                                <li class="mobile-catelory__item">
+                                    <a href="" class="mobile-catelory__link">OPPO</a>
+                                </li>
+                                <li class="mobile-catelory__item">
+                                    <a href="" class="mobile-catelory__link">Apple</a>
+                                </li>
+                                <li class="mobile-catelory__item">
+                                    <a href="" class="mobile-catelory__link">Vivo</a>
+                                </li>
+                                <li class="mobile-catelory__item">
+                                    <a href="" class="mobile-catelory__link">OnPlus</a>
+                                </li>
+                                <li class="mobile-catelory__item">
+                                    <a href="" class="mobile-catelory__link">Realme</a>
+                                </li>
+                                <li class="mobile-catelory__item">
+                                    <a href="" class="mobile-catelory__link">Asus</a>
+                                </li>
+                                <li class="mobile-catelory__item">
+                                    <a href="" class="mobile-catelory__link">Google</a>
+                                </li>
+                                <li class="mobile-catelory__item">
+                                    <a href="" class="mobile-catelory__link">Lenovo</a>
+                                </li>
+                                <li class="mobile-catelory__item">
+                                    <a href="" class="mobile-catelory__link">Nokia</a>
+                                </li>
+                                <li class="mobile-catelory__item">
+                                    <a href="" class="mobile-catelory__link">Sony</a>
+                                </li>
+                                <li class="mobile-catelory__item">
+                                    <a href="" class="mobile-catelory__link">Vmast</a>
+                                </li>
+                                <li class="mobile-catelory__item">
+                                    <a href="" class="mobile-catelory__link">Huawei</a>
+                                </li>
+                            </ul>
+                        </nav>
+                        <!-- End: Mobile/tablet catelory -->
+                        <!-- Begin: Product -->
+                        <div class="home-product">
+                            <div class="row sm-gutter">
+                                <div class="col l-2-4 m-4 c-6">
+                                    <a href="" class="home-product-item">
+                                        <div style="background-image: url(/assets/img/product/Redmi\ Note\ 11\ Pro.jpg);" class="home-product-item__img"></div>
+                                        <div class="home-product-item__name">Điện thoại Xiaomi Redmi Note 10 Pro 5G</div>
+                                        <div class="home-product-item__price">
+                                            <p class="home-product-item__price-old">6.250.000₫</p>
+                                            <p class="home-product-item__price-new">5.950.000₫</p>
+                                        </div>
+                                        <div class="home-product-item__rating">
+                                            <!-- <i class="far fa-star"></i> -->
+                                            <i class="home-product-item__star-gold fas fa-star"></i>
+                                            <i class="home-product-item__star-gold fas fa-star"></i>
+                                            <i class="home-product-item__star-gold fas fa-star"></i>
+                                            <i class="home-product-item__star-gold fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                        </div>
+                                        <div class="home-product-item__sale-off">
+                                            <div class="home-product-item__sale-off-panel">
+                                                <span class="home-product__item-sale-off-percent">10%</span>
+                                                <div class="home-product__item-sale-off-lable">GIẢM</div>
+                                            </div>
+                                        </div>   
+                                    </a>
+                                </div>
+                                <div class="col l-2-4 m-4 c-6">
+                                    <a href="" class="home-product-item">
+                                        <div style="background-image: url(/assets/img/product/Xiaomi\ 12.jpg);" class="home-product-item__img"></div>
+                                        <div class="home-product-item__name">Điện thoại Xiaomi 12 (Snap 8 Gen 1)</div>
+                                        <div class="home-product-item__price">
+                                            <p class="home-product-item__price-old">14.450.000₫</p>
+                                            <p class="home-product-item__price-new">14.050.000₫</p>
+                                        </div>
+                                        <div class="home-product-item__rating">
+                                            <!-- <i class="far fa-star"></i> -->
+                                            <i class="home-product-item__star-gold fas fa-star"></i>
+                                            <i class="home-product-item__star-gold fas fa-star"></i>
+                                            <i class="home-product-item__star-gold fas fa-star"></i>
+                                            <i class="home-product-item__star-gold fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                        </div>
+                                        <div class="home-product-item__sale-off">
+                                            <div class="home-product-item__sale-off-panel">
+                                                <span class="home-product__item-sale-off-percent">10%</span>
+                                                <div class="home-product__item-sale-off-lable">GIẢM</div>
+                                            </div>
+                                        </div>   
+                                    </a>
+                                </div>
+                                <div class="col l-2-4 m-4 c-6">
+                                    <a href="" class="home-product-item">
+                                        <div style="background-image: url(/assets/img/product/Oppo\ Reno7\ Z\ 5G.jpg);" class="home-product-item__img"></div>
+                                        <div class="home-product-item__name">Điện thoại OPPO Reno7 Z 5G</div>
+                                        <div class="home-product-item__price">
+                                            <p class="home-product-item__price-old">9.450.000₫</p>
+                                            <p class="home-product-item__price-new">8.950.000₫</p>
+                                        </div>
+                                        <div class="home-product-item__rating">
+                                            <!-- <i class="far fa-star"></i> -->
+                                            <i class="home-product-item__star-gold fas fa-star"></i>
+                                            <i class="home-product-item__star-gold fas fa-star"></i>
+                                            <i class="home-product-item__star-gold fas fa-star"></i>
+                                            <i class="home-product-item__star-gold fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                        </div>
+                                        <div class="home-product-item__sale-off">
+                                            <div class="home-product-item__sale-off-panel">
+                                                <span class="home-product__item-sale-off-percent">10%</span>
+                                                <div class="home-product__item-sale-off-lable">GIẢM</div>
+                                            </div>
+                                        </div>   
+                                    </a>
+                                </div>
+                                <div class="col l-2-4 m-4 c-6">
+                                    <a href="" class="home-product-item">
+                                        <div style="background-image: url(/assets/img/product/Oppo\ Find\ X5\ Pro.jpg);" class="home-product-item__img"></div>
+                                        <div class="home-product-item__name">Điện thoại OPPO Find X5 Pro</div>
+                                        <div class="home-product-item__price">
+                                            <p class="home-product-item__price-old">22.450.000₫</p>
+                                            <p class="home-product-item__price-new">21.950.000₫</p>
+                                        </div>
+                                        <div class="home-product-item__rating">
+                                            <!-- <i class="far fa-star"></i> -->
+                                            <i class="home-product-item__star-gold fas fa-star"></i>
+                                            <i class="home-product-item__star-gold fas fa-star"></i>
+                                            <i class="home-product-item__star-gold fas fa-star"></i>
+                                            <i class="home-product-item__star-gold fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                        </div>
+                                        <div class="home-product-item__sale-off">
+                                            <div class="home-product-item__sale-off-panel">
+                                                <span class="home-product__item-sale-off-percent">10%</span>
+                                                <div class="home-product__item-sale-off-lable">GIẢM</div>
+                                            </div>
+                                        </div>   
+                                    </a>
+                                </div>
+                                <div class="col l-2-4 m-4 c-6">
+                                    <a href="" class="home-product-item">
+                                        <div style="background-image: url(/assets/img/product/iPhone\ 12\ Pro\ Max.jpg);" class="home-product-item__img"></div>
+                                        <div class="home-product-item__name">Điện thoại iPhone 12 Pro Max cũ</div>
+                                        <div class="home-product-item__price">
+                                            <p class="home-product-item__price-old">23.750.000₫</p>
+                                            <p class="home-product-item__price-new">20.850.000₫</p>
+                                        </div>
+                                        <div class="home-product-item__rating">
+                                            <!-- <i class="far fa-star"></i> -->
+                                            <i class="home-product-item__star-gold fas fa-star"></i>
+                                            <i class="home-product-item__star-gold fas fa-star"></i>
+                                            <i class="home-product-item__star-gold fas fa-star"></i>
+                                            <i class="home-product-item__star-gold fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                        </div>
+                                        <div class="home-product-item__sale-off">
+                                            <div class="home-product-item__sale-off-panel">
+                                                <span class="home-product__item-sale-off-percent">10%</span>
+                                                <div class="home-product__item-sale-off-lable">GIẢM</div>
+                                            </div>
+                                        </div>   
+                                    </a>
+                                </div>
+                                <div class="col l-2-4 m-4 c-6">
+                                    <a href="" class="home-product-item">
+                                        <div style="background-image: url(/assets/img/product/Redmi\ K40\ Gaming.png);" class="home-product-item__img"></div>
+                                        <div class="home-product-item__name">Điện thoại Xiaomi Redmi K40 Gaming</div>
+                                        <div class="home-product-item__price">
+                                            <p class="home-product-item__price-old">7.450.000₫</p>
+                                            <p class="home-product-item__price-new">7.350.000₫</p>
+                                        </div>
+                                        <div class="home-product-item__rating">
+                                            <!-- <i class="far fa-star"></i> -->
+                                            <i class="home-product-item__star-gold fas fa-star"></i>
+                                            <i class="home-product-item__star-gold fas fa-star"></i>
+                                            <i class="home-product-item__star-gold fas fa-star"></i>
+                                            <i class="home-product-item__star-gold fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                        </div>
+                                        <div class="home-product-item__sale-off">
+                                            <span class="home-product__item-sale-off-percent">10%</span>
+                                            <span class="home-product__item-sale-off-lable">GIẢM</span>
+                                        </div>   
+                                    </a>
+                                </div>
+                                <div class="col l-2-4 m-4 c-6">
+                                    <a href="" class="home-product-item">
+                                        <div style="background-image: url(/assets/img/product/iPhone\ 13\ Pro\ Max.jpg);" class="home-product-item__img"></div>
+                                        <div class="home-product-item__name">Điện thoại iPhone 13 Pro Max</div>
+                                        <div class="home-product-item__price">
+                                            <p class="home-product-item__price-old">30.450.000₫</p>
+                                            <p class="home-product-item__price-new">29.700.000₫</p>
+                                        </div>
+                                        <div class="home-product-item__rating">
+                                            <!-- <i class="far fa-star"></i> -->
+                                            <i class="home-product-item__star-gold fas fa-star"></i>
+                                            <i class="home-product-item__star-gold fas fa-star"></i>
+                                            <i class="home-product-item__star-gold fas fa-star"></i>
+                                            <i class="home-product-item__star-gold fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                        </div>
+                                        <div class="home-product-item__sale-off">
+                                            <span class="home-product__item-sale-off-percent">10%</span>
+                                            <span class="home-product__item-sale-off-lable">GIẢM</span>
+                                        </div>   
+                                    </a>
+                                </div>
+                                <div class="col l-2-4 m-4 c-6">
+                                    <a href="" class="home-product-item">
+                                        <div style="background-image: url(/assets/img/product/Redmi\ K40.jpg);" class="home-product-item__img"></div>
+                                        <div class="home-product-item__name">Điện thoại Xiaomi Redmi K40</div>
+                                        <div class="home-product-item__price">
+                                            <p class="home-product-item__price-old">7.950.000₫</p>
+                                            <p class="home-product-item__price-new">7.050.000₫</p>
+                                        </div>
+                                        <div class="home-product-item__rating">
+                                            <!-- <i class="far fa-star"></i> -->
+                                            <i class="home-product-item__star-gold fas fa-star"></i>
+                                            <i class="home-product-item__star-gold fas fa-star"></i>
+                                            <i class="home-product-item__star-gold fas fa-star"></i>
+                                            <i class="home-product-item__star-gold fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                        </div>
+                                        <div class="home-product-item__sale-off">
+                                            <span class="home-product__item-sale-off-percent">10%</span>
+                                            <span class="home-product__item-sale-off-lable">GIẢM</span>
+                                        </div>   
+                                    </a>
+                                </div>
+                                <div class="col l-2-4 m-4 c-6">
+                                    <a href="" class="home-product-item">
+                                        <div style="background-image: url(/assets/img/product/Redmi\ K50.jpg);" class="home-product-item__img"></div>
+                                        <div class="home-product-item__name">Điện thoại Xiaomi Redmi K50</div>
+                                        <div class="home-product-item__price">
+                                            <p class="home-product-item__price-old">9.950.000₫</p>
+                                            <p class="home-product-item__price-new">9.550.000₫</p>
+                                        </div>
+                                        <div class="home-product-item__rating">
+                                            <!-- <i class="far fa-star"></i> -->
+                                            <i class="home-product-item__star-gold fas fa-star"></i>
+                                            <i class="home-product-item__star-gold fas fa-star"></i>
+                                            <i class="home-product-item__star-gold fas fa-star"></i>
+                                            <i class="home-product-item__star-gold fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                        </div>
+                                        <div class="home-product-item__sale-off">
+                                            <span class="home-product__item-sale-off-percent">10%</span>
+                                            <span class="home-product__item-sale-off-lable">GIẢM</span>
+                                        </div>   
+                                    </a>
+                                </div>
+                                <div class="col l-2-4 m-4 c-6">
+                                    <a href="" class="home-product-item">
+                                        <div style="background-image: url(/assets/img/product/Xiaomi\ Mi\ 11.png);" class="home-product-item__img"></div>
+                                        <div class="home-product-item__name">Điện thoại Xiaomi Mi 11 (Kèm sạc GaN - 55W)</div>
+                                        <div class="home-product-item__price">
+                                            <p class="home-product-item__price-old">12.950.000₫</p>
+                                            <p class="home-product-item__price-new">12.350.000₫</p>
+                                        </div>
+                                        <div class="home-product-item__rating">
+                                            <!-- <i class="far fa-star"></i> -->
+                                            <i class="home-product-item__star-gold fas fa-star"></i>
+                                            <i class="home-product-item__star-gold fas fa-star"></i>
+                                            <i class="home-product-item__star-gold fas fa-star"></i>
+                                            <i class="home-product-item__star-gold fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                        </div>
+                                        <div class="home-product-item__sale-off">
+                                            <span class="home-product__item-sale-off-percent">10%</span>
+                                            <span class="home-product__item-sale-off-lable">GIẢM</span>
+                                        </div>   
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End: Product -->
+                        <!-- Begin: Pagination -->
+                        <ul class="home-product__pagination pagination">
+                            <li class="pagination-item">
+                                <a href="" class="pagination-item__link">
+                                    <i class="pagination-item__icon fas fa-angle-left"></i>
+                                </a>
+                            </li>
+                            <li class="pagination-item pagination-item--active">
+                                <a href="" class="pagination-item__link">1</a>
+                            </li>
+                            <li class="pagination-item">
+                                <a href="" class="pagination-item__link">2</a>
+                            </li>
+                            <li class="pagination-item">
+                                <a href="" class="pagination-item__link">3</a>
+                            </li>
+                            <li class="pagination-item">
+                                <a href="" class="pagination-item__link">4</a>
+                            </li>
+                            <li class="pagination-item">
+                                <a href="" class="pagination-item__link">5</a>
+                            </li>
+                            <li class="pagination-item">
+                                <a href="" class="pagination-item__link">...</a>
+                            </li>
+                            <li class="pagination-item">
+                                <a href="" class="pagination-item__link">14</a>
+                            </li>
+                            <li class="pagination-item">
+                                <a href="" class="pagination-item__link">
+                                    <i class="pagination-item__icon fas fa-angle-right"></i>
+                                </a>
+                            </li>
+                        </ul>
+                        <!-- End: Pagination -->
+                    </div>
+                </div>
+            </div>
+        <footer class="footer">
+            <div class="grid wide footer-mobile">
+                <div class="row">
+                    <div class="col l-2-4 m-4 c-6">
+                        <h3 class="footer__heading">Chăm sóc khách hàng</h3>
+                        <ul class="footer-list">
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">Trung tâm trợ giúp</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">K Mobile</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">Hướng dẫn mua hàng</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col l-2-4 m-4 c-6">
+                        <h3 class="footer__heading">Về K Mobile</h3>
+                        <ul class="footer-list">
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">Giới thiệu về K Mobile</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">Tuyển dụng</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">Diều khoản K Mobile</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col l-2-4 m-4 c-6">
+                        <h3 class="footer__heading">Hãng sản xuất</h3>
+                        <ul class="footer-list">
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">Xiaomi</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">OPPO</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">Apple</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col l-2-4 m-4 c-6">
+                        <h3 class="footer__heading">Theo dõi chúng tôi trên</h3>
+                        <ul class="footer-list">
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">
+                                    <i class="footer-item__icon fab fa-facebook"></i>
+                                    Facebook
+                                </a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">
+                                    <i class="footer-item__icon fab fa-instagram"></i>
+                                    Instagram
+                                </a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">
+                                    <i class="footer-item__icon fab fa-linkedin"></i>
+                                    LinkedIn
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col l-2-4 m-4 c-12">
+                        <h3 class="footer__heading">Vào cửa hàng trên ứng dụng</h3>
+                        <a href="" class="footer__download">
+                            <img src="/assets/img/qr_code/QR-Code.png" alt="QR Code" class="footer__download-qr">
+                            <div class="footer__download-apps">
+                                <img src="/assets/img/qr_code/Google-Play.png" alt="Google Play" class="footer__download-icon">
+                                <img src="/assets/img/qr_code/App-Store.png" alt="App Store" class="footer__download-icon">
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer__bottom">
+                <div class="grid wide">
+                    <p class="footer__copyright">© 2021 - Bản quyền thuộc về K Mobile</p>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <!-- Begin: Modal -->
+    <!-- <div class="modal">
+        <div class="modal__body"> -->
+            <!-- Begin: Authen form -->
+            <!-- <div class="auth-form">
+                <div class="auth-form__container">
+                    <div class="auth-form__header">
+                        <h3 class="auth-form__heading">Đăng ký</h3>
+                        <span class="auth-form__switch-btn">Đăng nhập</span>
+                    </div>
+                    <div class="auth-form__form">
+                        <div class="auth-form__group">
+                            <input type="text" class="auth-form__input" placeholder="Nhập email">
+                        </div>
+                        <div class="auth-form__group">
+                            <input type="password" class="auth-form__input" placeholder="Nhập mật khẩu">
+                        </div>
+                        <div class="auth-form__group">
+                            <input type="password" class="auth-form__input" placeholder="Nhập lại mật khẩu">
+                        </div>
+                    </div>
+                    <div class="auth-form__aside">
+                        <p class="auth-form__policy-text">
+                            Bằng việc đăng ký, bạn đã đồng ý với K Shop về
+                            <a href="" class="auth-form__policy-link">Điều khoản dịch vụ</a> & 
+                            <a href="" class="auth-form__policy-link">Chính sách bảo mật</a>
+                        </p>
+                    </div>
+                    <div class="auth-form__controls">
+                        <button class="btn auth-form__control-back">TRỞ LẠI</button>
+                        <button class="btn btn--primary">ĐĂNG KÝ</button>
+                    </div>
+                </div>
+                <div class="auth-form__socials">
+                    <button class="auth-form__social--facebook btn btn--size-s btn--with-icon">
+                        <i class="auth-form__social-icon fab fa-facebook-square"></i>
+                        <span class="auth-form__social--title">
+                            Kết nối với Facebook
+                        </span>
+                    </button>
+                    <button class="auth-form__social--google btn btn--size-s btn--with-icon">
+                        <i class="auth-form__social-icon fab fa-google"></i>
+                        <span class="auth-form__social--title">
+                            Kết nối với Google
+                        </span>
+                    </button>
+                </div>
+            </div> -->
+            <!-- End: Authen form -->
+            <!-- Begin: Login form -->
+            <!-- <div class="auth-form">
+            <div class="auth-form__container">
+                <div class="auth-form__header">
+                    <h3 class="auth-form__heading">Đăng nhập</h3>
+                    <span class="auth-form__switch-btn">Đăng ký</span>
+                </div>
+                <div class="auth-form__form">
+                    <div class="auth-form__group">
+                        <input type="text" class="auth-form__input" placeholder="Nhập email">
+                    </div>
+                    <div class="auth-form__group">
+                        <input type="password" class="auth-form__input" placeholder="Nhập mật khẩu">
+                    </div>
+                </div>
+                <div class="auth-form__aside">
+                    <div class="auth-form__help">
+                        <a href="" class="auth-form__help-link auth-form__help-link-forgot">Quên mật khẩu</a>
+                        <span class="auth-form__help-separate"></span>
+                        <a href="" class="auth-form__help-link">Cần trợ giúp?</a>
+                    </div>
+                </div>
+                <div class="auth-form__controls">
+                    <button class="btn auth-form__control-back">TRỞ LẠI</button>
+                    <button class="btn btn--primary">ĐĂNG NHẬP</button>
+                </div>
+            </div>
+            <div class="auth-form__socials">
+                <button class="auth-form__social--facebook btn btn--size-s btn--with-icon">
+                    <i class="auth-form__social-icon fab fa-facebook-square"></i>
+                    <span class="auth-form__social--title">
+                        Kết nối với Facebook
+                    </span>
+                </button>
+                <button class="auth-form__social--google btn btn--size-s btn--with-icon">
+                    <i class="auth-form__social-icon fab fa-google"></i>
+                    <span class="auth-form__social--title">
+                        Kết nối với Google
+                    </span>
+                </button>
+            </div>
+            </div> -->
+            <!-- End: Login form -->
+        <!-- </div>
+    </div> -->
+    <!-- End: Modal -->
+</body>
+</html>
